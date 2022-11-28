@@ -1,0 +1,19 @@
+/* Agregamos la fuente a utilizar en la página */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background: linear-gradient(rgba(0,0,0,7), rgba(0,0,0,7)), url("imagen_fondo_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* height: 100vh; */
+}
