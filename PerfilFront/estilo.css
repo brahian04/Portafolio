@@ -61,6 +61,18 @@ html {
     color: rgb(38, 178, 7);
 }
 
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: rgb(38, 178, 7);
+}
+
 #inicio .contenido .presentacion{
     /* centrado y ajuste de parrafo bienvenida */
     max-width: 1100px;
@@ -98,3 +110,27 @@ html {
     font-size: 18px;
     text-align: center;
 }
+
+#inicio .contenido .presentacion a{
+    /* configurar estilo para hipervinculo "Ir a postafolio" */
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: rgb(38, 178, 7);
+}
+
+#icono-nav{
+    color: #fff;
+    display: none;
+}
+
