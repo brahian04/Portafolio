@@ -190,4 +190,17 @@ html {
 
 #sobremi .sobremi p{
     font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: .5s;
 }
