@@ -73,6 +73,10 @@ html {
     color: rgb(38, 178, 7);
 }
 
+#inicio .contenido header .contenido-header .seleccionado{
+    color: rgb(38, 178, 7);
+}
+
 #inicio .contenido .presentacion{
     /* centrado y ajuste de parrafo bienvenida */
     max-width: 1100px;
@@ -138,6 +142,7 @@ html {
 
 #sobremi{
     max-width: 1100px;
+    height: 750px;
     margin: auto;
     padding: 100px 15px;
     color: #111135;
@@ -145,8 +150,9 @@ html {
 }
 
 #sobremi .contenedor-foto{
-    max-width: 400px;
-    margin-right: 80px;
+    max-width: 500px;
+    width: 80%;
+    margin-right: 30px;
 }
 
 #sobremi .contenedor-foto img{
@@ -229,7 +235,7 @@ html {
 }
 
 #servicios .fila{
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     max-width: 1100px;
     margin: 30px auto;
@@ -322,14 +328,14 @@ html {
 /* este estilo se aplica mediante javascript para la animación de la barra */
 .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
-    width: 95%;
+    width: 100%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2{
     background-color: #fff;
-    width: 80%;
+    width: 100%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
@@ -343,7 +349,7 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso4{
     background-color: #fff;
-    width: 95%;
+    width: 100%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
@@ -354,7 +360,7 @@ html {
         width: 0;
     }
     100%{
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -363,7 +369,7 @@ html {
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -372,7 +378,7 @@ html {
         width: 0;
     }
     100%{
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -381,7 +387,7 @@ html {
         width: 0;
     }
     100%{
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -492,4 +498,103 @@ html {
 #contacto .btn-enviar:hover{
     background-color: rgb(38, 178, 7);
     color: #fff;
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+/* seccion responsive */
+@media screen and (max-width:800px){
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive{
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #inicio .contenido .presentacion h2{
+        font-size: 40px;
+    }
+    #sobremi{
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto{
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img{
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion{
+        text-align: center;
+    }
+    #sobremi .sobremi h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #servicio{
+        padding: 50px 15px;
+    }
+    #servicios .fila{
+        display: block;
+    }
+    #servicios .fila .servicio{
+        margin: 10px auto;
+    }
+    .contenedor-skills{
+        padding: 50px 20px;
+    }
+    #portafolio{
+        padding: 50px 0;
+    }
+    #portafolio .fila{
+        display: block;
+    }
+    #portafolio .fila .proyecto{
+        margin: 10px auto;
+    }
+    #contacto{
+        padding: 50px 15px;
+    }
+    #contacto .contenedor-form .mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .mitad input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
