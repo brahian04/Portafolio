@@ -23,6 +23,18 @@ function responsiveMenu(){
     }
 }
 
+document.getElementById('imgProyecto1').addEventListener('click', function() {
+    window.location.href = 'https://github.com/brahian04/Portafolio';
+});
+
+document.getElementById('imgProyecto2').addEventListener('click', function() {
+    window.location.href = 'https://github.com/brahian04/finalProjectBootcampSP';
+});
+
+document.getElementById('imgProyecto3').addEventListener('click', function() {
+    window.location.href = 'https://github.com/brahian04/bookstore';
+});
+
 // //detectar scrolling para iniciar la animación de las barras de habilidades
 // window.onscroll= function(){
 //     efectoHabilidades()
