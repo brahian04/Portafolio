@@ -24,15 +24,15 @@ function responsiveMenu(){
 }
 
 document.getElementById('imgProyecto1').addEventListener('click', function() {
-    window.location.href = 'https://github.com/brahian04/Portafolio';
+    window.open('https://github.com/brahian04/Portafolio', '_blank');
 });
 
 document.getElementById('imgProyecto2').addEventListener('click', function() {
-    window.location.href = 'https://github.com/brahian04/finalProjectBootcampSP';
+     window.open('https://github.com/brahian04/finalProjectBootcampSP', '_blank');
 });
 
 document.getElementById('imgProyecto3').addEventListener('click', function() {
-    window.location.href = 'https://github.com/brahian04/bookstore';
+    window.open('https://github.com/brahian04/bookstore', '_blank');
 });
 
 // //detectar scrolling para iniciar la animación de las barras de habilidades
